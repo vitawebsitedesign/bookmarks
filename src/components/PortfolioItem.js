@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import PortfolioItemUrls from './PortfolioItemUrls';
 import PortfolioItemTags from './PortfolioItemTags';
+import {getPortfolioItem} from '../selectors/portfolio-items';
 
 const getOverviewParagraphs = overview => overview.trim().split('\n').map((o, idx) => 
     <p key={idx}>
@@ -90,7 +91,7 @@ class PortfolioItem extends React.Component {
 }
 
 const mapStateToProps = (state, props) => ({
-    item: state.find(i => i.id === props.match.params.id)
+    item: getPortfolioItem(state, props.match.params.id)
 });
 
 export default connect(mapStateToProps)(PortfolioItem);

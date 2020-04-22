@@ -9,19 +9,9 @@ import Mint from '../portfolio-items/mint';
 import ModernBng from '../portfolio-items/modern-bng';
 import RealestateVisualiser from '../portfolio-items/realestate-visualiser';
 import SqlKeywordFormatter from '../portfolio-items/sql-keyword-formatter.js';
+import portfolioItems from '../reducers/portfolio-items';
 
-const initialState = [];
-const reducer = (state = initialState, action) => {
-    switch (action.type) {
-        case 'ADD_PORTFOLIO_ITEMS':
-            return [...state, ...action.items];
-        default:
-            break;
-    }
-    return state;
-};
-
-const store = createStore(reducer);
+const store = createStore(portfolioItems);
 store.dispatch(addPortfolioItems([
     AgileAES,
     AsxMarketCapitalisation,
