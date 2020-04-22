@@ -1,17 +1,23 @@
 import React from 'react';
-import PortfolioItem from './PortfolioItem';
-import AgileAES from '../portfolio-items/agile-aes.js';
+import {connect} from 'react-redux';
+import {Link} from 'react-router-dom';
 
-export default class PortfolioItems extends React.Component {
-    state = {
-        portfolioItemsData: [AgileAES]
-    };
+const getLink = (story, idx) => {
+    const to = `/story/${story.id}`;
+    return (
+        <li key={idx}>
+            <Link to={to}>{story.title}</Link>
+        </li>
+    );
+};
 
-    render() {
-        return (
-            <div>
-                {this.state.portfolioItemsData.map((i, idx) => <PortfolioItem key={idx} item={i} />)}
-            </div>
-        );
-    }
-}
+const PortfolioItems = props => (
+    <div>
+        <ul>
+            {props.items.map(getLink)}
+        </ul>
+    </div>
+);
+
+const mapStateToProps = state => ({ items: state });
+export default connect(mapStateToProps)(PortfolioItems);

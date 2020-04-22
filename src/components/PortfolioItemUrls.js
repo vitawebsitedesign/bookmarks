@@ -8,13 +8,19 @@ const getAnchorListItems = urls => urls.map((u, idx) =>
     </li>
 );
 
-const PortfolioItemUrls = props => props.urls && props.urls.length && (
-    <section>
-        <p>{props.title}:</p>
+const getSections = urlsByType => Object.keys(urlsByType).map(title =>
+    <section key={title}>
+        <p>{title}:</p>
         <ul>
-            {getAnchorListItems(props.urls)}
+            {getAnchorListItems(urlsByType[title])}
         </ul>
     </section>
+);
+
+const PortfolioItemUrls = props => (
+    <div>
+        {props.urlsByType && getSections(props.urlsByType)}
+    </div>
 );
 
 export default PortfolioItemUrls;

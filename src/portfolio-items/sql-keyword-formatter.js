@@ -1,10 +1,9 @@
-import Tags from '../enums/Tags';
-
 export default {
+    "id": "sql-keyword-formatter",
     "title": "SQL Keyword Formatter",
-    "tags": {
-        "product": ['Open source', 'Microsoft Store'],
-        "programming": ['C#', 'UWP', 'T-SQL', 'Regex']
+    "tagsByType": {
+        "product": ["Open source", "Microsoft Store"],
+        "programming": ["C#", "UWP", "T-SQL", "Regex"]
     },
     "overview": `
 In ASP.NET architectures, raw T-SQL is often used as an alternative to Entity Framework statements (Dapper/ADO.NET).
@@ -17,17 +16,29 @@ SQL Keyword Formatter is a modern UWP Windows app that allows a developer to mov
 Specifically, one can now just copy & paste an entire T-SQL snippet, and immediately retrieve the functional equivalent in the later format.
 The significant productivity boost enabled by this app proves valuable.
     `,
+    "preview": {
+        "images": [
+            {
+                "src": "https://i.imgur.com/myxwbeK.jpg",
+                "alt": "Example #1 of the SQL Keyword Formatter in action"
+            },
+            {
+                "src": "https://i.imgur.com/WxfoIFD.jpg",
+                "alt": "Example #2 of the SQL Keyword Formatter in action"
+            }
+        ]
+    },
     "learnt": [
-        'The different scenarios T-SQL keywords may be used in, then translating those into regex patterns',
-        'Thorough use of fixtures in automated parallelable nUnit tests to minimize regressions',
-        'How to develop with the UWP framework & passing auditing to enable publishing to the Microsoft Store'
+        "The different scenarios T-SQL keywords may be used in, then translating those into regex patterns",
+        "Thorough use of fixtures in automated parallelable nUnit tests to minimize regressions",
+        "How to develop with the UWP framework & passing auditing to enable publishing to the Microsoft Store"
     ],
-    "urls": {
-        "src": [
-            'https://github.com/vitawebsitedesign/sql-keyword-formatter'
+    "urlsByType": {
+        "source code": [
+            "https://github.com/vitawebsitedesign/sql-keyword-formatter"
         ],
         "product": [
-            'https://www.microsoft.com/en-au/p/sql-keyword-formatter/9mv09gl7hrt1?cid=msft_web_chart&activetab=pivot:overviewtab'
+            "https://www.microsoft.com/en-au/p/sql-keyword-formatter/9mv09gl7hrt1?cid=msft_web_chart&activetab=pivot:overviewtab"
         ]
     }
 };
