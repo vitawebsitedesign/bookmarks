@@ -1,8 +1,8 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {Link} from 'react-router-dom';
 import PortfolioItemUrls from './PortfolioItemUrls';
 import PortfolioItemTags from './PortfolioItemTags';
+import BackButton from './BackButton';
 import {getPortfolioItem} from '../selectors/portfolio-items';
 
 const getOverviewParagraphs = overview => overview.trim().split('\n').map((o, idx) => 
@@ -54,7 +54,7 @@ class PortfolioItem extends React.Component {
         return (
             <article>
                 <nav>
-                    <Link to="/">back</Link>
+                    <BackButton />
                 </nav>
                 <header>
                     <h2>{item.title}</h2>
