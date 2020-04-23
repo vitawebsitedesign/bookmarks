@@ -1,10 +1,10 @@
 import React from 'react';
-import BackButton from './BackButton';
+import BackLink from './BackLink';
 
 const NotFound = () => (
     <>
         <nav>
-            <BackButton />
+            <BackLink />
         </nav>
         <p>404: Not found</p>;
     </>

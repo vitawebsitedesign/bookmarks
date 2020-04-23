@@ -2,24 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const getAnchorListItems = urls => urls.map((u, idx) =>
-    <li key={idx}>
-        <a href={u} target="_blank" rel="noopener noreferrer" title="click to open this external link in a new tab">
-            {u}
-        </a>
-    </li>
+    <a key={idx} href={u} target="_blank" rel="noopener noreferrer" title="click to open this external link in a new tab" className="link">
+        {u}
+    </a>
 );
 
 const getSections = urlsByType => Object.keys(urlsByType).map(title =>
-    <section key={title}>
-        <p>{title}:</p>
-        <ul>
-            {getAnchorListItems(urlsByType[title])}
-        </ul>
+    <section key={title} className="mb-4 text-center">
+        <div className="text-capitalize">{title}</div>
+        {getAnchorListItems(urlsByType[title])}
     </section>
 );
 
 const PortfolioItemUrls = props => (
-    <div>
+    <div className="col-12">
         {props.urlsByType && getSections(props.urlsByType)}
     </div>
 );

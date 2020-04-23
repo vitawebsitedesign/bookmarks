@@ -3,15 +3,19 @@ import PropTypes from 'prop-types';
 import Tag from './Tag';
 
 const getTagListItems = tags => tags.map((t, idx) =>
-    <li key={idx}>
-        <Tag>{t}</Tag>
-    </li>
+    <span key={idx} className="mr-1">
+        <Tag>
+            <span className="px-2">
+                {t}
+            </span>
+        </Tag>
+    </span>
 );
 
 const getSections = tagsByType => Object.keys(tagsByType).map(title => getTagListItems(tagsByType[title]));
 
 const PortfolioItemTags = props => (
-    <div>
+    <div className="d-flex flex-wrap">
         {props.tagsByType && getSections(props.tagsByType)}
     </div>
 );

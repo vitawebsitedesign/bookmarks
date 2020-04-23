@@ -6,17 +6,15 @@ import PropTypes from 'prop-types';
 const getLink = (story, idx) => {
     const to = `/story/${story.id}`;
     return (
-        <li key={idx}>
-            <Link to={to}>{story.title}</Link>
-        </li>
+        <Link key={idx} to={to} className="my-2 py-3 btn btn-primary text-left text-uppercase text-decoration-none portfolio-items__item">
+            {story.title}
+        </Link>
     );
 };
 
 const PortfolioItems = props => (
-    <div>
-        <ul>
-            {props.items.map(getLink)}
-        </ul>
+    <div className="col-12 d-flex flex-column portfolio-items">
+        {props.items.map(getLink)}
     </div>
 );
 

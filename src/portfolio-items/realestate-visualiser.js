@@ -1,6 +1,6 @@
 export default {
     "id": "rea-crawler-and-visualizer",
-    "title": "Realestate.com.au website crawler & visualizer",
+    "title": "Realestate.com.au crawler",
     "tagsByType": {
         "product": ["Realestate.com.au", "Data scraping", "Data post-processing", "API integration"],
         "programming": ["Google Maps API", "PHP"]

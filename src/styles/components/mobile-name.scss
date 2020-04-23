@@ -1,0 +1,11 @@
+$margin: 1.5rem;
+.mobile-name {
+    line-height: 0.8;
+    margin-bottom: 2.5rem;
+}
+.mobile-name__given {
+    margin-right: $margin;
+}
+.mobile-name__surname {
+    margin-left: $margin;
+}
