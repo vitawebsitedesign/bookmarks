@@ -13,6 +13,12 @@ This app was used on a daily basis, during bus & train transport to & from work.
     `,
     "preview": {
     },
+    "codeSnippets": [
+        "https://gist.github.com/vitawebsitedesign/239e8afad27f0cac95dec06d362d1c59",
+        "https://gist.github.com/vitawebsitedesign/79d2fbaae0eed6e01b64e9df0a925b53",
+        "https://gist.github.com/vitawebsitedesign/a14c9b325df3860d80c08375e071fe00",
+        "https://gist.github.com/vitawebsitedesign/0d35573a3b8ed97fc34274c7b6793597"
+    ],
     "learnt": [
         "The Windows Mobile SDK",
         "App development for the small Microsoft Lumia mobile screen real estate",
@@ -20,7 +26,7 @@ This app was used on a daily basis, during bus & train transport to & from work.
     ],
     "urlsByType": {
         "source code": [
-            "https://gitlab.com/thinkfast2008/follow-the-process"
+            "https://github.com/vitawebsitedesign/follow-the-process"
         ]
     }
 };

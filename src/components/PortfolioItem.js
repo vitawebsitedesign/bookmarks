@@ -4,6 +4,7 @@ import PortfolioItemUrls from './PortfolioItemUrls';
 import PortfolioItemTags from './PortfolioItemTags';
 import BackButton from './BackButton';
 import {getPortfolioItem} from '../selectors/portfolio-items';
+import Gist from 'super-react-gist';
 
 const getOverviewParagraphs = overview => overview.trim().split('\n').map((o, idx) => 
     <p key={idx}>
@@ -47,6 +48,10 @@ const getPreviewYoutube = youtubes => youtubes.map((url, idx) =>
     />
 );
 
+const getEmbeddedCodeSnippets = urls => urls && urls.map((u, idx) => 
+    <Gist key={idx} url={u} />
+);
+
 class PortfolioItem extends React.Component {
     render() {
         const item = this.props.item;
@@ -68,6 +73,7 @@ class PortfolioItem extends React.Component {
                 )}
                 <section>
                     {getOverviewParagraphs(item.overview)}
+                    {getEmbeddedCodeSnippets(item.codeSnippets)}
                 </section>
                 <section>
                     {item.preview.images && getPreviewImgs(item.preview.images)}

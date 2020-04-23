@@ -13,15 +13,15 @@ import portfolioItems from '../reducers/portfolio-items';
 
 const store = createStore(portfolioItems);
 store.dispatch(addPortfolioItems([
-    AgileAES,
-    AsxMarketCapitalisation,
+    ModernBng,
     BngCampaignXmlGenerator,
+    SqlKeywordFormatter,
+    Mint,
+    AgileAES,
     FollowTheProcess,
     MachiKoro,
-    Mint,
-    ModernBng,
     RealestateVisualiser,
-    SqlKeywordFormatter
+    AsxMarketCapitalisation
 ]));
 
 export default store;

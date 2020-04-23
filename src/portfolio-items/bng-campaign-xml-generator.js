@@ -25,6 +25,10 @@ For maximal access, this tool is hosted as a simple CodePen, which was made poss
             }
         ]
     },
+    "codeSnippets": [
+        "https://gist.github.com/vitawebsitedesign/b0c9a04e5139a5839874670dfaba23f1",
+        "https://gist.github.com/vitawebsitedesign/b1a90b42ddac1383fc9e2988d9f1bd90"
+    ],
     "learnt": [
         "The third party XML formats required for successful integration",
         "The Bootstrap components & configuration of webpack bundles",

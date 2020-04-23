@@ -13,13 +13,17 @@ Many hours were enjoyed both implementing & playing.
     `,
     "preview": {
     },
+    "codeSnippets": [
+        "https://gist.github.com/vitawebsitedesign/fde717ca33d323b4d7699e58a41593ab",
+        "https://gist.github.com/vitawebsitedesign/9449ccecfad9dbdc1ce414854d8a9940"
+    ],
     "learnt": [
         "Constructing reusable & agnostic ReactJS components",
         "Translating mechanics into rules through ES6"
     ],
     "urlsByType": {
         "source code": [
-            "https://gitlab.com/thinkfast2008/machi-koroooooooo"
+            "https://github.com/vitawebsitedesign/machi-koroooooooo"
         ]
     }
 };

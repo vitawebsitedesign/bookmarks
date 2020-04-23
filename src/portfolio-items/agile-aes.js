@@ -13,6 +13,10 @@ Hence, AgileAES is a library that brings AES encryption functionality using a se
     `,
     "preview": {
     },
+    "codeSnippets": [
+        "https://gist.github.com/vitawebsitedesign/64e4721caca03209cc2c4052f67f293d",
+        "https://gist.github.com/vitawebsitedesign/d2d0a104cfdd10e906f4c802b2742d17"
+    ],
 	"learnt": [
 		"The usage of the System.Security.Cryptography.Aes class",
 		"The semantics between MemoryStream, CryptoStream & StreamWriter to ensure operation scalability.",

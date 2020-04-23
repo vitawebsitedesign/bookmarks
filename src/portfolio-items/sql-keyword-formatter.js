@@ -28,6 +28,10 @@ The significant productivity boost enabled by this app proves valuable.
             }
         ]
     },
+    "codeSnippets": [
+        "https://gist.github.com/vitawebsitedesign/a4bc1a4004d88dfe34c5daab3bb9dfbe",
+        "https://gist.github.com/vitawebsitedesign/b9ff00fc48308aa5f7c678bc970834d7"
+    ],
     "learnt": [
         "The different scenarios T-SQL keywords may be used in, then translating those into regex patterns",
         "Thorough use of fixtures in automated parallelable nUnit tests to minimize regressions",

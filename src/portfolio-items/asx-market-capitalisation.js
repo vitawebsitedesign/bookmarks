@@ -13,13 +13,17 @@ A website that can quickly fetch market capitalisations by company ticker throug
     `,
     "preview": {
     },
+    "codeSnippets": [
+        "https://gist.github.com/vitawebsitedesign/cdb4c7b6c84f1ba34a0ed7c8f9336d4e",
+        "https://gist.github.com/vitawebsitedesign/132316eb386d7e5dbb102005f70f425b"
+    ],
     "learnt": [
         "The reverse-engineering the ASX API endpoint URL & request parameters",
         "Leveraging Bootstrap to productively deliver responsive user interfaces"
     ],
     "urlsByType": {
         "source code": [
-            "https://gitlab.com/thinkfast2008/market-cap"
+            "https://github.com/vitawebsitedesign/market-cap"
         ]
     }
 };

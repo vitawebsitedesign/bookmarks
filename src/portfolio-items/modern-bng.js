@@ -25,6 +25,10 @@ Hence, "Modern BNG" is a C# mod that enables this & enables never-seen-before BN
             }
         ],
     },
+    "codeSnippets": [
+        "https://gist.github.com/vitawebsitedesign/82804a855c355ec896d7a704479edcc5",
+        "https://gist.github.com/vitawebsitedesign/aa7404a287b1704764edb1a511e357d7"
+    ],
     "learnt": [
         "Programatically applying Physically Based Shading via Unity Standard Shader",
         "Thirty-party API integrations",

@@ -1,6 +1,6 @@
 export default {
-    "id": "rea-visualizer",
-    "title": "Realestate.com.au visualizer",
+    "id": "rea-crawler-and-visualizer",
+    "title": "Realestate.com.au website crawler & visualizer",
     "tagsByType": {
         "product": ["Realestate.com.au", "Data scraping", "Data post-processing", "API integration"],
         "programming": ["Google Maps API", "PHP"]
@@ -17,6 +17,10 @@ Hence, a web suite was created that:
     `,
     "preview": {
     },
+    "codeSnippets": [
+        "https://gist.github.com/vitawebsitedesign/415a9b4fbf631eb21690cd18d4f1f238",
+        "https://gist.github.com/vitawebsitedesign/fff9e3c8cb22410c5b15a78e2c10411d"
+    ],
     "learnt": [
         "Developing a PHP web crawler to fetch raw data",
         "Determining Regex patterns to extract key information from large raw HTML webpages",
@@ -24,7 +28,7 @@ Hence, a web suite was created that:
     ],
     "urlsByType": {
         "source code": [
-            "https://gitlab.com/thinkfast2008/real-estate-website-crawler"
+            "https://github.com/vitawebsitedesign/real-estate-website-crawler"
         ]
     }
 };
