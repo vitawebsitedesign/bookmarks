@@ -6,4 +6,12 @@
     border: none;
     font-size: 0.8rem;
     font-weight: bold;
+
+    &.btn-primary {
+        background: $purple;
+
+        &:hover {
+            background: lighten($purple, 10%);
+        }
+    }
 }

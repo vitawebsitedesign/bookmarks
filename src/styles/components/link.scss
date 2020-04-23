@@ -1,7 +1,17 @@
 .link {
     background: none;
     border: none;
-    word-break: break-all;
     color: $lime;
+    word-break: break-all;
     text-decoration: underline;
+
+    &:link, &:visited {
+        color: $lime;
+    }
+    &:hover {
+        color: lighten($lime, 20%);
+    }
+    &:active {
+        color: $lime;
+    }
 }
