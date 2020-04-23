@@ -1,5 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import PropTypes from 'prop-types';
 import PortfolioItemUrls from './PortfolioItemUrls';
 import PortfolioItemTags from './PortfolioItemTags';
 import BackButton from './BackButton';
@@ -95,6 +96,10 @@ class PortfolioItem extends React.Component {
         );
     }
 }
+
+PortfolioItem.propTypes = {
+    item: PropTypes.object
+};
 
 const mapStateToProps = (state, props) => ({
     item: getPortfolioItem(state, props.match.params.id)
