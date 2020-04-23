@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const getAnchorListItems = urls => urls.map((u, idx) =>
     <li key={idx}>
@@ -22,5 +23,9 @@ const PortfolioItemUrls = props => (
         {props.urlsByType && getSections(props.urlsByType)}
     </div>
 );
+
+PortfolioItemUrls.propTypes = {
+    urlsByType: PropTypes.objectOf(PropTypes.arrayOf(PropTypes.string))
+};
 
 export default PortfolioItemUrls;

@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 const getLink = (story, idx) => {
     const to = `/story/${story.id}`;
@@ -18,6 +19,10 @@ const PortfolioItems = props => (
         </ul>
     </div>
 );
+
+PortfolioItems.propTypes = {
+    items: PropTypes.arrayOf(PropTypes.object)
+};
 
 const mapStateToProps = state => ({ items: state });
 export default connect(mapStateToProps)(PortfolioItems);

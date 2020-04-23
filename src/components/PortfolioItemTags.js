@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Tag from './Tag';
 
 const getTagListItems = tags => tags.map((t, idx) =>
@@ -14,5 +15,9 @@ const PortfolioItemTags = props => (
         {props.tagsByType && getSections(props.tagsByType)}
     </div>
 );
+
+PortfolioItemTags.propTypes = {
+    tagsByType: PropTypes.objectOf(PropTypes.arrayOf(PropTypes.string))
+};
 
 export default PortfolioItemTags;
