@@ -1,6 +1,6 @@
 export default {
     "id": "bng-campaign-xml-generator",
-    "title": "BNG Campaign XML Generator",
+    "title": "Campaign XML Generator",
     "tagsByType": {
         "product": ["Open source", "Code Pen"],
         "programming": ["XML", "Selenium", "Webpack", "jQuery", "Bootstrap"]

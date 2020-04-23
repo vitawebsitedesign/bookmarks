@@ -1,6 +1,6 @@
 export default {
 	"id": "agile-aes",
-	"title": "AgileAES & SecureStringCharacters",
+	"title": "Agile AES",
 	"tagsByType": {
 		"product": ["Open source", "Encryption", "Nuget"],
 		"programming": ["C#", ".NET Standard"]
