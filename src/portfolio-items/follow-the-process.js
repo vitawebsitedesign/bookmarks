@@ -12,7 +12,7 @@ Hence, a compact mobile app to view, navigate & analyze these daily opportunitie
 This app was used on a daily basis, during bus & train transport to & from work.
     `,
     "preview": {
-        "thumbnail": "https://i.imgur.com/L535vr0.jpg"
+        "thumbnail": "https://i.imgur.com/Mtt86Na.jpg"
     },
     "codeSnippets": [
         "https://gist.github.com/vitawebsitedesign/0d35573a3b8ed97fc34274c7b6793597",
