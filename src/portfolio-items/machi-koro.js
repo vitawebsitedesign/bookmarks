@@ -12,6 +12,7 @@ This is a ReactJS implementation of the entertaining board game.
 Many hours were enjoyed both implementing & playing.
     `,
     "preview": {
+        "thumbnail": "https://i.imgur.com/iDjiuID.jpg"
     },
     "codeSnippets": [
         "https://gist.github.com/vitawebsitedesign/fde717ca33d323b4d7699e58a41593ab",

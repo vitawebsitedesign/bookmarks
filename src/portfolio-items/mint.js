@@ -16,6 +16,7 @@ Calculations work by diffing 2 datafiles and calculating the difference dependin
 Lua integration for datamining, ES6 for calculations, & ReactJS for responsive UI's
     `,
     "preview": {
+        "thumbnail": "https://i.imgur.com/LltcjH3.jpg",
         "youtubes": [
             "https://www.youtube.com/embed/En_9xQfm8Cg"
         ],
@@ -28,11 +29,9 @@ Lua integration for datamining, ES6 for calculations, & ReactJS for responsive U
     },
     "codeSnippets": [
         "https://gist.github.com/vitawebsitedesign/36e7fc168dfbf0c9c520b65ddd4e8b81",
-        "https://gist.github.com/vitawebsitedesign/e21a49f7c3d2e4719a333994715f4ff7",
-        "https://gist.github.com/vitawebsitedesign/ed799abf3a34f23f7b45bd4e788acb75",
-        "https://gist.github.com/vitawebsitedesign/18f44ec2e9542e9cb7b2e5a6012a0e11",
+        "https://gist.github.com/vitawebsitedesign/a2dcb6ca0e1510393fe5421b16b7952e",
         "https://gist.github.com/vitawebsitedesign/5d0231ddcc5dc665ef9a3c3a76fd826e",
-        "https://gist.github.com/vitawebsitedesign/a2dcb6ca0e1510393fe5421b16b7952e"
+        "https://gist.github.com/vitawebsitedesign/18f44ec2e9542e9cb7b2e5a6012a0e11"
     ],
     "learnt": [
         "Learning the Lua programming language",

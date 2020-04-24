@@ -1,8 +1,12 @@
 import React from 'react';
+import {BsGem} from 'react-icons/bs';
 
 const PortfolioHomeItemsIntro = () => (
     <>
-        <h3 className="col-12 my-3 text-uppercase gallery__header">Portfolio</h3>
+        <h3 className="d-flex align-items-center col-12 my-3 text-uppercase portfolio-home__gallery__header">
+            <BsGem className="portfolio-home-items-intro__header__icon mr-2" />
+            Portfolio
+        </h3>
         <p className="col-12">
             This list covers personal programming projects undertaken after university graduation.
         </p>

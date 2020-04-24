@@ -12,12 +12,13 @@ Hence, a compact mobile app to view, navigate & analyze these daily opportunitie
 This app was used on a daily basis, during bus & train transport to & from work.
     `,
     "preview": {
+        "thumbnail": "https://i.imgur.com/L535vr0.jpg"
     },
     "codeSnippets": [
+        "https://gist.github.com/vitawebsitedesign/0d35573a3b8ed97fc34274c7b6793597",
         "https://gist.github.com/vitawebsitedesign/239e8afad27f0cac95dec06d362d1c59",
         "https://gist.github.com/vitawebsitedesign/79d2fbaae0eed6e01b64e9df0a925b53",
-        "https://gist.github.com/vitawebsitedesign/a14c9b325df3860d80c08375e071fe00",
-        "https://gist.github.com/vitawebsitedesign/0d35573a3b8ed97fc34274c7b6793597"
+        "https://gist.github.com/vitawebsitedesign/a14c9b325df3860d80c08375e071fe00"
     ],
     "learnt": [
         "The Windows Mobile SDK",

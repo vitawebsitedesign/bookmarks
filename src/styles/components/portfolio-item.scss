@@ -1,7 +1,21 @@
 .portfolio-item__header, .portfolio-item__footer {
-    background: $navy;
+    background: $black;
     color: $white;
 }
 .portfolio-item__urls {
-    background: $black;
+    background: $navy;
+}
+.portfolio-item__project-subheader {
+    color: $grey;
+    font-size: 0.7rem;
+    letter-spacing: 10px;
+}
+.portfolio-item {
+    video, img {
+        border: 1px solid $grey;
+        width: 100%;
+    }
+}
+.portfolio-item__tag-icon {
+    font-size: 1.2rem;
 }

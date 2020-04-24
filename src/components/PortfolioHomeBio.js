@@ -1,38 +1,27 @@
 import React from 'react';
 
 const PortfolioHomeBio = () => (
-    <>
-        <h1 className="col-12 mobile-name">
-            <span className="d-block d-sm-none text-center">
-                <span className="mobile-name__given">Michael</span>
-                <br />
-                <span className="mobile-name__surname">Nguyen</span>
+    <div className="col-12 col-lg-5 col-xl-3 offset-lg-6 offset-xl-7 px-lg-2 py-lg-4 portfolio-home-bio">
+        <h1 className="col-12 portfolio-home-bio__header mobile-name">
+            <span className="d-block d-lg-none text-center">
+                Aww yeah!
             </span>
-            <span className="d-none d-sm-block">
-                Michael Nguyen
+            <span className="d-none d-lg-block">
+                Aww yeah!
             </span>
         </h1>
-        <div className="col-12">
+        <div className="col-12 portfolio-home-bio__description">
             <p>
-                Mike is a Sydney Software Engineer with an unhealthy obsession with all things tech.
+                Michael is a Sydney Software Engineer with an unhealthy programming obsession.
             </p>
             <p>
-            He has an unhealthy obsession with reading about the minimisation of software project risks.
+                Achieving perfect code in unrealistic time frames is a prominent issue in the software world. This has driven a strong passion in reading software project risk management books such as “Rapid Development” & “The Pragmatic Programmer”.
             </p>
             <p>
-                As a full-stack dev, it is fantastic to understand in detail how all software components connect together &amp; synergize them to deliver great products.
-            </p>
-            <p>
-                Having exposure to very early releases of AngularJS &amp; ReactJS has resulted in a plotglot front-end framework background.
-            </p>
-            <p>
-                The pragmatic application of strong programming practices are prioritized, since those will always have a direct effect on end products, &amp; persist even as software technologies change over time.
-            </p>
-            <p>
-                Feel free to check out some of his personal projects below, which were undertaken during free time.
+                Maybe a business wants software delivered yesterday. Maybe there's project risks and/or unknown-unknowns. Maybe customers change their requirements after seeing prototypes. Over time, Michael has holistically observed numerous software deliveries with different outcomes, which has resulted in a humble, strong work ethic that propels an attitude to be better than yesterday, everyday.
             </p>
         </div>
-    </>
+    </div>
 );
 
 export default PortfolioHomeBio;
