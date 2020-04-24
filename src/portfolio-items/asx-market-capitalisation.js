@@ -12,6 +12,7 @@ For some reason, there wasn't an easy & quick way to view business market capita
 A website that can quickly fetch market capitalisations by company ticker through the ASX API, would be productive & valuable.
     `,
     "preview": {
+        "thumbnail": "https://i.imgur.com/nU4eDFi.jpg"
     },
     "codeSnippets": [
         "https://gist.github.com/vitawebsitedesign/cdb4c7b6c84f1ba34a0ed7c8f9336d4e",

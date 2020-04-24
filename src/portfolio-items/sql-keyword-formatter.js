@@ -17,14 +17,11 @@ Specifically, one can now just copy & paste an entire T-SQL snippet, and immedia
 The significant productivity boost enabled by this app proves valuable.
     `,
     "preview": {
+        "thumbnail": "https://i.imgur.com/ssULoKz.jpg",
         "images": [
             {
-                "src": "https://i.imgur.com/myxwbeK.jpg",
-                "alt": "Example #1 of the SQL Keyword Formatter in action"
-            },
-            {
                 "src": "https://i.imgur.com/WxfoIFD.jpg",
-                "alt": "Example #2 of the SQL Keyword Formatter in action"
+                "alt": "Example of the SQL Keyword Formatter in action"
             }
         ]
     },

@@ -12,7 +12,8 @@ Developers no longer need to know exact encyrption implementation details, and a
 Hence, AgileAES is a library that brings AES encryption functionality using a series of 1-liners.
     `,
     "preview": {
-    },
+		"thumbnail": "https://i.imgur.com/Lf4ocgm.jpg"
+	},
     "codeSnippets": [
         "https://gist.github.com/vitawebsitedesign/64e4721caca03209cc2c4052f67f293d",
         "https://gist.github.com/vitawebsitedesign/d2d0a104cfdd10e906f4c802b2742d17"

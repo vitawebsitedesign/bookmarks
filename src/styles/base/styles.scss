@@ -12,13 +12,15 @@ a {
     font-weight: 400;
     text-decoration: underline;
 }
-video, img {
-    border: 1px solid $grey;
-    max-width: 100%;
-}
 figcaption {
-    background: $grey;
-    color: white;
+    $border-radius: 3px;
+    background: $smoke-white;
+    border: 1px solid $light-grey;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    color: $dark-grey;
     font-size: 0.6rem;
-    text-transform: uppercase;
+}
+p, li {
+    word-break: break-word;
 }

@@ -12,6 +12,7 @@ Hence, a tool with a user-friendly UI to automatically generate their necessary 
 For maximal access, this tool is hosted as a simple CodePen, which was made possible through Webpack.
     `,
     "preview": {
+        "thumbnail": "https://i.imgur.com/btz2Ykj.jpg",
         "videos": [
             {
                 "webm": "https://giant.gfycat.com/UncommonWhoppingDingo.webm",

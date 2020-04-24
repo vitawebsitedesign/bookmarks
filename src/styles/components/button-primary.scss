@@ -1,0 +1,19 @@
+.button-primary {
+    background: none;
+    border: 1px solid $lime;
+    color: $off-white;
+    font-size: 0.8rem;
+
+    &.btn-primary {
+        background: none;
+
+        &:hover {
+            background: $lime-translucent;
+            border-color: lighten($lime, 20%);
+        }
+    }
+}
+.button-primary__icon {
+    color: $lime;
+    font-size: 1.1rem;
+}
