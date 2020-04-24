@@ -12,7 +12,7 @@ Enabling modern graphics using a C# mod integration enabled aesthetics not seen 
 Hence, "Modern BNG" is a C# mod that enables this & enables never-seen-before BNG aesthetics.
     `,
     "preview": {
-        "thumbnail": "https://i.imgur.com/mwr6OKQ.jpg",
+        "thumbnail": "https://i.imgur.com/k3cNkZO.jpg",
         "images": [
             {
                 "src": "https://i.imgur.com/CRsGOBp.jpg",

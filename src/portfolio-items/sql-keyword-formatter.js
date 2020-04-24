@@ -17,7 +17,7 @@ Specifically, one can now just copy & paste an entire T-SQL snippet, and immedia
 The significant productivity boost enabled by this app proves valuable.
     `,
     "preview": {
-        "thumbnail": "https://i.imgur.com/ssULoKz.jpg",
+        "thumbnail": "https://i.imgur.com/6lPGLPM.jpg",
         "images": [
             {
                 "src": "https://i.imgur.com/WxfoIFD.jpg",

@@ -16,7 +16,7 @@ Hence, a web suite was created that:
 • PHP endpoints to deliver JSON data to a responsive user interface
     `,
     "preview": {
-        "thumbnail": "https://i.imgur.com/Dj8xjiT.jpg"
+        "thumbnail": "https://i.imgur.com/pNH2BtH.jpg"
     },
     "codeSnippets": [
         "https://gist.github.com/vitawebsitedesign/415a9b4fbf631eb21690cd18d4f1f238",

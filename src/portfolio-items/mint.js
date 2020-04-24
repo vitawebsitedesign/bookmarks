@@ -16,7 +16,7 @@ Calculations work by diffing 2 datafiles and calculating the difference dependin
 Lua integration for datamining, ES6 for calculations, & ReactJS for responsive UI's
     `,
     "preview": {
-        "thumbnail": "https://i.imgur.com/LltcjH3.jpg",
+        "thumbnail": "https://i.imgur.com/VsDGCyq.jpg",
         "youtubes": [
             "https://www.youtube.com/embed/En_9xQfm8Cg"
         ],
