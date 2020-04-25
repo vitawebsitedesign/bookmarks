@@ -19,3 +19,16 @@
 .portfolio-item__tag-icon {
     font-size: 1.2rem;
 }
+.portfolio-item__overview, .portfolio-item__lessons {
+    animation: slide-up 1s ease-out forwards;
+}
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -5,14 +5,15 @@ export default {
         "product": ["Windows Mobile SDK", "C#"]
     },
     "overview": `
-The Australian Stock Exchange (ASX) allows investors to invest in equities.
-As business conditions change on a daily basis, new attracting investing opportunities may open up.
+The Australian Stock Exchange (ASX) allows investors to exchange equities.
+As business conditions change on a daily basis, time windows open that enable the investment of attractive business opportunities.
 The window to enter, may however, be small.
-Hence, a compact mobile app to view, navigate & analyze these daily opportunities would be quite valuable.
-This app was used on a daily basis, during bus & train transport to & from work.
+Hence, a portable method to identify & analyze these continually evolving opportunities would be quite valuable.
+This mobile app was used on a daily basis, during bus & train transport to & from work.
     `,
     "preview": {
-        "thumbnail": "https://i.imgur.com/Mtt86Na.jpg"
+        "thumbnail": "https://i.imgur.com/Mtt86Na.jpg",
+        "about": "Windows mobile app to scan daily stockmarket business opportunities"
     },
     "codeSnippets": [
         "https://gist.github.com/vitawebsitedesign/0d35573a3b8ed97fc34274c7b6793597",
@@ -22,8 +23,8 @@ This app was used on a daily basis, during bus & train transport to & from work.
     ],
     "learnt": [
         "The Windows Mobile SDK",
-        "App development for the small Microsoft Lumia mobile screen real estate",
-        "Reverse-engineering the BigCharts MarketWatch graph endpoint to display candlestick charts"
+        "App development with the limited screen real estate of the Microsoft Lumia mobile",
+        "Reverse-engineering the BigCharts MarketWatch graph endpoint to pull & display candlestick charts"
     ],
     "urlsByType": {
         "source code": [

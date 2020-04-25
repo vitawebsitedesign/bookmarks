@@ -6,21 +6,21 @@ export default {
         "programming": ["ReactJS", "Bootstrap"]
     },
     "overview": `
-"Machi Koro" is a fun physical board game.
-I had a craving to play a digital version of this game online, but there was no decent one available at the time.
-This is a ReactJS implementation of the entertaining board game.
-Many hours were enjoyed both implementing & playing.
+"Machi Koro" is a 2012 tabletop physical board game.
+One morning, I had a craving to play a digital version of this product online, but at the time, there was no decent online alternative available. Most implementations had crude workflows & graphics, due to being constructed from extremely generic tabletop frameworks.
+This project is a ReactJS implementation of the Machi Koro tabletop product. Too many hours were enjoyed from both implementing & experiencing.
     `,
     "preview": {
-        "thumbnail": "https://i.imgur.com/ITQYs4D.jpg"
+        "thumbnail": "https://i.imgur.com/ITQYs4D.jpg",
+        "about": "Digital implementation of the Machi Koro board game"
     },
     "codeSnippets": [
         "https://gist.github.com/vitawebsitedesign/fde717ca33d323b4d7699e58a41593ab",
         "https://gist.github.com/vitawebsitedesign/9449ccecfad9dbdc1ce414854d8a9940"
     ],
     "learnt": [
-        "Constructing reusable & agnostic ReactJS components",
-        "Translating mechanics into rules through ES6"
+        "Constructing reusable & data-agnostic ReactJS components via props",
+        "Translating workflow mechanics into rules using ES6 features"
     ],
     "urlsByType": {
         "source code": [

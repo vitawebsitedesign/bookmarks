@@ -8,13 +8,13 @@ const PortfolioHomeItemsIntro = () => (
             Portfolio
         </h3>
         <p className="col-12">
-            This list covers personal programming projects undertaken after university graduation.
+            The gallery below highlights Mike&rsquo;s personal projects undertaken after university graduation. Click one to view its details.
         </p>
         <p className="col-12">
-            Prior &amp; during university, many projects were created such as algorithmic trading software, mathematical formula algorithms &amp; GML video games.
+            Prior &amp; during university, many more projects were done such as algorithmic trading software, mathematical formula algorithms &amp; GML products.
         </p>
         <p className="col-12">
-            Feel free to check out the certifications &amp; additional work pieces listed on Michael&rsquo;s resume, which complement the list below.
+            If you have Mike&rsquo;s resume, feel free to also check out his certifications &amp; additional work pieces, which complement the gallery below.
         </p>
     </>
 );

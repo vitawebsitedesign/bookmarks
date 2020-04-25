@@ -15,10 +15,10 @@ const PortfolioHomeBio = () => (
                 Michael is a Sydney Software Engineer with an unhealthy programming obsession.
             </p>
             <p>
-                Achieving perfect code in unrealistic time frames is a prominent issue in the software world. This has driven a strong passion in reading software project risk management books such as “Rapid Development” & “The Pragmatic Programmer”.
+                Schedule overrun is a prominent issue in the software project world. This has driven a strong passion in reading software project risk management books such as <i>“Rapid Development”</i> &amp; <i>“The Pragmatic Programmer”</i>.
             </p>
             <p>
-                Maybe a business wants software delivered yesterday. Maybe there's project risks and/or unknown-unknowns. Maybe customers change their requirements after seeing prototypes. Over time, Michael has holistically observed numerous software deliveries with different outcomes, which has resulted in a humble, strong work ethic that propels an attitude to be better than yesterday, everyday.
+                Maybe a business wants software delivered yesterday. Maybe there's project risks and/or unknown-unknowns. Maybe customers change their requirements after seeing prototypes. Over time, Michael has holistically observed software deliveries across a broad range of outcomes, which has resulted in a humble, strong &amp; risk-oriented work ethic that propels an attitude to be better than yesterday, everyday.
             </p>
         </div>
     </div>

@@ -6,18 +6,18 @@ export default {
         "programming": ["C#", "UWP", "T-SQL", "Regex"]
     },
     "overview": `
-In ASP.NET architectures, raw T-SQL is often used as an alternative to Entity Framework statements (Dapper/ADO.NET).
-When it comes to bulk operations, raw SQL offers a scalable & performant option for database operations.
+In ASP.NET architectures, raw T-SQL can be an attractive alternative to Entity Framework statements (Dapper/ADO.NET).
+This is especially true when it comes to expensive bulk operations.
 
-However raw T-SQL casing can sometimes be mixed up. Some developers prefer an "all lowercase" format for T-SQL.
-Later on, they may decide that the more traditional "uppercase keyword" formatting is more readable.
+However raw T-SQL (declared as multi-line strings) can sometimes have all-lowercase casing. Some developers prefer uppercase T-SQL keywords for readability.
 
-SQL Keyword Formatter is a modern UWP Windows app that allows a developer to move to the later keyword format.
-Specifically, one can now just copy & paste an entire T-SQL snippet, and immediately retrieve the functional equivalent in the later format.
+SQL Keyword Formatter is a modern UWP Windows app that allows a developer to move to the later keyword format productively.
+Specifically, one can now just copy & paste entire T-SQL snippets, and immediately retrieve the functional equivalent with uppercase keywords.
 The significant productivity boost enabled by this app proves valuable.
     `,
     "preview": {
         "thumbnail": "https://i.imgur.com/6lPGLPM.jpg",
+        "about": "Automatically uppercase T-SQL keywords in multi-line strings",
         "images": [
             {
                 "src": "https://i.imgur.com/WxfoIFD.jpg",
@@ -32,7 +32,7 @@ The significant productivity boost enabled by this app proves valuable.
     "learnt": [
         "The different scenarios T-SQL keywords may be used in, then translating those into regex patterns",
         "Thorough use of fixtures in automated parallelable nUnit tests to minimize regressions",
-        "How to develop with the UWP framework & passing auditing to enable publishing to the Microsoft Store"
+        "How to develop with the UWP framework & passing Microsoft Store audits to enable publishment to the store"
     ],
     "urlsByType": {
         "source code": [

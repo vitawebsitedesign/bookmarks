@@ -27,12 +27,10 @@ const PortfolioItemOverview = ({item}) => (
             </div>
         </div>
         <div className="row">
-            <div className="col-12 col-lg-5 flex-column">
-                <div>
-                    {getOverviewParagraphs(item.overview)}
-                </div>
+            <div className="col-12 col-lg-5 flex-column portfolio-item__overview">
+                {getOverviewParagraphs(item.overview)}
             </div>
-            <div className="d-none d-lg-block col-12 col-lg-5 offset-1">
+            <div className="d-none d-lg-block col-12 col-lg-5 offset-1 portfolio-item__lessons">
                 <PortfolioItemLessons lessons={item.learnt} />
             </div>
         </div>
