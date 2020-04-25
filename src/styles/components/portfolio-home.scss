@@ -1,6 +1,6 @@
 .portfolio-home__gallery {
     background: $gunmetal;
-    background: linear-gradient(180deg, rgba(22,24,31,1) 0%, rgba(24,30,45,1) 11%, rgba(24,30,45,1) 100%);
+    background: linear-gradient(180deg, $light-black 0%, $gunmetal 11%, $gunmetal 100%);
     color: $off-white;
 }
 .portfolio-home__gallery__header {
