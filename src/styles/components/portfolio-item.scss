@@ -19,6 +19,9 @@
 .portfolio-item__tag-icon {
     font-size: 1.2rem;
 }
+.portfolio-item__assets {
+    background: linear-gradient(180deg, rgba(250,250,250,1) 0%, rgba(253,253,253,1) 15%, rgba(253,253,253,1) 100%);
+}
 .portfolio-item__overview, .portfolio-item__lessons {
     animation: slide-up 1s ease-out forwards;
 }

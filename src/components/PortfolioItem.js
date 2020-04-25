@@ -57,15 +57,10 @@ class PortfolioItem extends React.Component {
                         <BackLink />
                     </nav>
                 </header>
-                <section className="row pt-4">
+                <section className="row pt-4 pb-1 pb-lg-4">
                     <PortfolioItemOverview item={item} />
                 </section>
-                <section className="d-none d-lg-block row my-4">
-                    <div className="col-12">
-                        <hr />
-                    </div>
-                </section>
-                <section className="row mb-4 align-items-start">
+                <section className="row mb-4 pt-4 pt-lg-5 align-items-start portfolio-item__assets">
                     {item.codeSnippets && item.codeSnippets.length && getEmbeddedCodeSnippets(item.codeSnippets)}
                     {item.preview.images && getPreviewImgs(item.preview.images)}
                     {item.preview.videos && getPreviewVids(item.preview.videos)}
