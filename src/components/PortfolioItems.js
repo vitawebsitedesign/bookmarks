@@ -5,9 +5,11 @@ import PropTypes from 'prop-types';
 import { FaChevronCircleRight } from 'react-icons/fa';
 import { GiArrowCursor } from 'react-icons/gi';
 import PortfolioItemTags from './PortfolioItemTags';
+import isDevelopment from '../util/is-development';
 
 const getLink = (story, idx) => {
-    const to = `/story/${story.id}`;
+    const to = isDevelopment ? `/story/${story.id}` : `/bookmarks/build/story/${story.id}`;
+
     const style = {
         backgroundImage: `url(${story.preview.thumbnail})`
     };
