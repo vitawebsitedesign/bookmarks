@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { FaChevronCircleRight } from 'react-icons/fa';
 import { GiArrowCursor } from 'react-icons/gi';
+import PortfolioItemTags from './PortfolioItemTags';
 
 const getLink = (story, idx) => {
     const to = `/story/${story.id}`;
@@ -25,7 +26,10 @@ const getLink = (story, idx) => {
                         <div>{story.title}</div>
                         <GiArrowCursor className="portfolio-items__tile__cursor" />
                     </header>
-                    <div className="portfolio-items__tile__caption">{story.preview.about}</div>
+                    <div className="portfolio-items__tile__caption">
+                        <div className="mb-4">{story.preview.about}</div>
+                        <PortfolioItemTags tagsByType={story.tagsByType} />
+                    </div>
                 </div>
             </Link>
         </div>

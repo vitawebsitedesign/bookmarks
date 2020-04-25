@@ -1,16 +1,18 @@
 $tile-height: 400px;
+$animation-duration: .25s;
 
 .portfolio-items__tile {
     background: none;
     border: 1px solid $lime;
     border-radius: 5px;
+    height: $tile-height;
+    overflow: hidden;
     position: relative;
 }   
 .portfolio-items__tile__thumbnail {
     background-size: cover;
     background-position: center;
-    height: $tile-height;
-    overflow: hidden;
+    height: 100%;
     width: 100%;
 }
 .portfolio-items__tile__mask {
@@ -20,7 +22,7 @@ $tile-height: 400px;
     left: 0;
     opacity: 0;
     position: absolute;
-    transition: opacity .25s ease-out;
+    transition: opacity $animation-duration ease-out;
 }
 .portfolio-items__tile__label {
     background: $lime;
@@ -28,15 +30,19 @@ $tile-height: 400px;
     bottom: 0;
     color: $navy;
     position: absolute;
+    transform: translateY(100%);
+    transition: transform $animation-duration ease-out;
 }
 .portfolio-items__tile__caption {
     font-size: 0.8rem;
-    height: 0;
     opacity: 0;
-    transition: height .25s ease-out, opacity .25s;
+    transition: height $animation-duration ease-out, opacity $animation-duration;
+}
+
+.portfolio-items__tile:hover .portfolio-items__tile__label {
+    transform: translateY(0);
 }
 .portfolio-items__tile:hover .portfolio-items__tile__caption {
-    height: 80px;
     opacity: 1;
 }
 .portfolio-items__tile:hover .portfolio-items__tile__mask {
