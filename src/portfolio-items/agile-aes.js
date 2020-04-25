@@ -7,12 +7,13 @@ export default {
 	},
 	"overview": `
 .NET provides AES encryption functionality to developers, but usage involves a large code footprint.
-Thus, a library that delivers the same functionality with lesser footprint via abstraction would be incredibly valueable.
-Developers no longer need to know exact encyrption implementation details, and allows them to perform the same functionality in a stateless manner.
-Hence, AgileAES is a library that brings AES encryption functionality using a series of 1-liners.
+Thus, a library that delivers the same functionality with lesser footprint via abstraction would be incredibly valuable.
+Developers no longer need to know exact encryption implementation details, and allows them to obtain the same encryption/decryption functionality in a stateless manner.
+Hence, AgileAES is a library that productively abstracts AES through a series of 1-liners.
     `,
     "preview": {
-		"thumbnail": "https://i.imgur.com/sI380Ma.jpg"
+		"thumbnail": "https://i.imgur.com/sI380Ma.jpg",
+		"about": "Easily do AES encryption and/or ciphering between clear text & SecureString"
 	},
     "codeSnippets": [
         "https://gist.github.com/vitawebsitedesign/64e4721caca03209cc2c4052f67f293d",

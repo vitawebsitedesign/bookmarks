@@ -3,14 +3,14 @@ import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { FaChevronCircleRight } from 'react-icons/fa';
+import { GiArrowCursor } from 'react-icons/gi';
 
 const getLink = (story, idx) => {
     const to = `/story/${story.id}`;
     const style = {
         backgroundImage: `url(${story.preview.thumbnail})`
     };
-    const caption = story.overview.trim().split('\n')[0];
-    
+
     return (
         <div key={idx} className="col-12 col-lg-4">
             <Link to={to} className="d-flex d-lg-none align-items-center justify-content-between my-2 py-3 btn btn-primary text-left text-uppercase text-decoration-none button-primary">
@@ -21,8 +21,11 @@ const getLink = (story, idx) => {
                 <div className="w-100 portfolio-items__tile__thumbnail" style={style} />
                 <div className="w-100 portfolio-items__tile__mask" />
                 <div className="w-100 p-2 portfolio-items__tile__label">
-                    <div>{story.title}</div>
-                    <div className="portfolio-items__tile__caption">{caption}</div>
+                    <header className="d-flex align-items-center justify-content-between">
+                        <div>{story.title}</div>
+                        <GiArrowCursor className="portfolio-items__tile__cursor" />
+                    </header>
+                    <div className="portfolio-items__tile__caption">{story.preview.about}</div>
                 </div>
             </Link>
         </div>

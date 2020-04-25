@@ -6,13 +6,14 @@ export default {
         "programming": ["XML", "Selenium", "Webpack", "jQuery", "Bootstrap"]
     },
     "overview": `
-BallisticNG is a Steam product that enables consumers to integrate using hand-written XML files.
-Hand writing XML filess is error prone & unproductive.
-Hence, a tool with a user-friendly UI to automatically generate their necessary XML is quite valuable.
-For maximal access, this tool is hosted as a simple CodePen, which was made possible through Webpack.
+BNG is a Steam product that enables consumers to integrate their hand-written XML files.
+Hand writing XML files (especially outside of an IDE) is error prone & unproductive.
+Hence, a tool with a user-friendly UI to automatically generate the necessary XML would be quite valuable.
+For maximal access, this tool is hosted on CodePen, which was made possible through Webpack bundles.
     `,
     "preview": {
         "thumbnail": "https://i.imgur.com/aiMY2nH.jpg",
+        "about": "Real-time XML generator for BallisticNG custom campaigns",
         "videos": [
             {
                 "webm": "https://giant.gfycat.com/UncommonWhoppingDingo.webm",
@@ -32,8 +33,8 @@ For maximal access, this tool is hosted as a simple CodePen, which was made poss
     ],
     "learnt": [
         "The third party XML formats required for successful integration",
-        "The Bootstrap components & configuration of webpack bundles",
-        "The Selenium WebDriver interface"
+        "The Bootstrap component library & configuration of webpack bundles",
+        "The Selenium WebDriver interface for effective automated UI testing"
     ],
     "urlsByType": {
         "source code": [

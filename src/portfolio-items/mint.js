@@ -6,17 +6,19 @@ export default {
         "programming": ["Lua", "ReactJS", "Bootstrap"]
     },
     "overview": `
-In 2004, Blizzard Entertainment released World of Warcraft.
-One of their features is an internal auction house system comprised of real bidders & sellers to determine prices.
-Like the real world, asset demand can periodicically fluctuate & cause temporary underpricing.
-Data mining & deriving calculated information for this would allow one to take advantage of such situations.
+Certain asset prices are determined by supply and demand.
+In 2004, Blizzard Entertainment released WoW, which featured an auction house system comprised of real bidders & sellers that influence prices.
+Like the real world, assets would periodically fluctuate & cause temporary underpriced & overpriced assets. In other words: opportunities to buy, sell & flip.
+
+Productively data mining & deriving calculated information for the assets, would allow one to take advantage of both situations.
 Hence, "Mint" is a valuable suite to achieve this.
 
-Calculations work by diffing 2 datafiles and calculating the difference depending on the amount to be purchased.
-Lua integration for datamining, ES6 for calculations, & ReactJS for responsive UI's
+Calculations work by diffing datafiles and calculating differences weighted by market liquidity & purchasing power available.
+This suite was implemented with Lua (for datamining), ES6 for calculations, & ReactJS for responsive UI's
     `,
     "preview": {
         "thumbnail": "https://i.imgur.com/VsDGCyq.jpg",
+        "about": "Lua & ReactJS suite that performs calculations on profit/loss data",
         "youtubes": [
             "https://www.youtube.com/embed/En_9xQfm8Cg"
         ],
@@ -34,9 +36,9 @@ Lua integration for datamining, ES6 for calculations, & ReactJS for responsive U
         "https://gist.github.com/vitawebsitedesign/18f44ec2e9542e9cb7b2e5a6012a0e11"
     ],
     "learnt": [
-        "Learning the Lua programming language",
-        "Integrating a third-party API",
-        "Applying the Psuedo Programming Process to translate requirements into reality",
+        "Constructing different data structures in the Lua programming language",
+        "Blizzard's third-party API",
+        "The Pseudocode Programming Process & applying it to safely translate requirements into reality",
         "Replicating computer interaction through user32.dll"
     ],
     "urlsByType": {

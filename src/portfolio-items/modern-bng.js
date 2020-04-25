@@ -6,13 +6,14 @@ export default {
         "programming": ["C#", ".NET", "Unity API", "BNG API"]
     },
     "overview": `
-BNG is a Steam product with retro-style aeshtetics.
+BNG is a Steam product with retro-style aesthetics.
 Modern shader & lighting techniques are not supported out-of-the-box, however it does support API integrations with Unity.
 Enabling modern graphics using a C# mod integration enabled aesthetics not seen before inside the product.
-Hence, "Modern BNG" is a C# mod that enables this & enables never-seen-before BNG aesthetics.
+Hence, "Modern BNG" is a C# mod that enables these never-seen-before aesthetics.
     `,
     "preview": {
         "thumbnail": "https://i.imgur.com/k3cNkZO.jpg",
+        "about": "Programatically apply Unity physical-based rendering to a scene with light data",
         "images": [
             {
                 "src": "https://i.imgur.com/CRsGOBp.jpg",
@@ -31,7 +32,7 @@ Hence, "Modern BNG" is a C# mod that enables this & enables never-seen-before BN
         "https://gist.github.com/vitawebsitedesign/aa7404a287b1704764edb1a511e357d7"
     ],
     "learnt": [
-        "Programatically applying Physically Based Shading via Unity Standard Shader",
+        "Programmatically applying Physically Based Shading via Unity Standard Shader",
         "Thirty-party API integrations",
         "Collaboration with like-minded programmers"
     ],
