@@ -17,7 +17,7 @@ Calculations work by diffing datafiles and calculating differences weighted by m
 This suite was implemented with Lua (for datamining), ES6 for calculations, & ReactJS for responsive UI's
     `,
     "preview": {
-        "thumbnail": "https://i.imgur.com/VsDGCyq.jpg",
+        "thumbnail": "https://i.imgur.com/mRImPd4.jpg",
         "about": "Lua & ReactJS suite that performs calculations on profit/loss data",
         "youtubes": [
             "https://www.youtube.com/embed/En_9xQfm8Cg"

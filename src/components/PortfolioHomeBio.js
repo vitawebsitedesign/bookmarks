@@ -10,7 +10,7 @@ const PortfolioHomeBio = () => (
                 Aww yeah!
             </span>
         </h1>
-        <div className="col-12 portfolio-home-bio__description">
+        <div className="col-12">
             <p>
                 Michael is a Sydney Software Engineer with an unhealthy programming obsession.
             </p>

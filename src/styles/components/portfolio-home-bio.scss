@@ -1,14 +1,9 @@
 @media (min-width: $breakpoint-lg) {
     .portfolio-home-bio {
         background: $white;
-        box-shadow: 10px -10px 15px -10px $white;
     }
     .portfolio-home-bio__header {
         color: #eb4559;
         font-size: 2.8rem;
     }
-    .portfolio-home-bio__description {
-        font-size: 0.8rem;
-    }
-
 }
