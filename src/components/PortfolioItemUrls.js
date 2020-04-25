@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {FiLink} from 'react-icons/fi';
 
 const getAnchorListItems = urls => urls.map((u, idx) =>
-    <a key={idx} href={u} target="_blank" rel="noopener noreferrer" title="click to open this external link in a new tab" className="link">
+    <a key={idx} href={u} target="_blank" rel="noopener noreferrer" title="click to open this external link in a new tab" className="d-block mb-2 link">
         {u}
     </a>
 );
