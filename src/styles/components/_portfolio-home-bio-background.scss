@@ -1,0 +1,16 @@
+.portfolio-home-bio-background__overlay {
+    background: $black;
+    background: radial-gradient(circle, #000000cc 0%, #000000f2 90%, #000000fa 100%);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.portfolio-home-bio-background__video video {
+    min-height: calc(100% + 10vh);
+    left: 0;
+    position: absolute;
+    top: -10vh;
+    min-width: 100%;
+}
