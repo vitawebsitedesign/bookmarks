@@ -1,18 +1,20 @@
 import React from 'react';
+import {FiHeart} from 'react-icons/fi';
 
 const PortfolioHomeBio = () => (
-    <div className="col-12 col-lg-5 col-xl-3 offset-lg-6 offset-xl-7 px-lg-2 py-lg-4 portfolio-home-bio">
-        <h1 className="col-12 portfolio-home-bio__header mobile-name">
-            <span className="d-block d-lg-none text-center">
+    <div className="col-12 col-lg-5 col-xl-3 offset-lg-6 offset-xl-7 my-lg-5 px-lg-2 portfolio-home-bio">
+        <div className="col-12 mobile-name">
+            <h1 className="d-block d-lg-none text-center">
                 Aww yeah!
-            </span>
-            <span className="d-none d-lg-block">
+            </h1>
+            <h1 className="d-none d-lg-flex py-4 align-items-center portfolio-home__header portfolio-home-bio__header">
+                <FiHeart className="mr-2 portfolio-home__icon" />
                 Aww yeah!
-            </span>
-        </h1>
-        <div className="col-12">
+            </h1>
+        </div>
+        <div className="col-12 portfolio-home-bio__description">
             <p>
-                Michael is a Sydney Software Engineer with an unhealthy programming obsession.
+                Michael is a Sydney Software Engineer with an unhealthy programmpoing obsession.
             </p>
             <p>
                 Schedule overrun is a prominent issue in the software project world. This has driven a strong passion in reading software project risk management books such as <i>“Rapid Development”</i> &amp; <i>“The Pragmatic Programmer”</i>.

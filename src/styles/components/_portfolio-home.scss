@@ -1,0 +1,21 @@
+.portfolio-home__header {
+    color: $lime;
+    font-weight: lighter;
+    letter-spacing: 0.05rem;
+}
+.portfolio-home__icon {
+    font-size: 1.4rem;
+}
+.portfolio-home__gallery {
+    @include portfolio-home-content-background;
+    color: $off-white;
+}
+.portfolio-home__gallery__header {
+    color: $lime;
+    font-weight: lighter;
+    letter-spacing: 0.05rem;
+}
+.portfolio-home__bio-container {
+    position: relative;
+    overflow: hidden;
+}

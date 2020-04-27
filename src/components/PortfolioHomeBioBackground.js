@@ -7,7 +7,6 @@ const PortfolioHomeBioBackground = () => (
             <HtmlVideo mp4="/bookmarks/build/portfolio-home-bio-bg.mp4" />
         </div>
         <div className="portfolio-home-bio-background__overlay" />
-        <img src="https://i.imgur.com/lJMXogB.png" alt="" className="portfolio-home-bio-background__frame" />
     </>
 );
 

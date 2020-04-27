@@ -1,0 +1,15 @@
+@media (min-width: $breakpoint-lg) {
+    .portfolio-home-bio {
+        @include portfolio-home-content-background;
+        color: $off-white;
+    }
+    .portfolio-home-bio__header {
+        color: $lime;
+        font-size: 1.75rem;
+        font-weight: lighter;
+        letter-spacing: 0.05rem;
+    }
+    .portfolio-home-bio__description {
+        animation: slide-up 1s ease-out forwards;
+    }
+}
