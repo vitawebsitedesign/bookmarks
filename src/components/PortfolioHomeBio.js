@@ -2,7 +2,7 @@ import React from 'react';
 import {FiHeart} from 'react-icons/fi';
 
 const PortfolioHomeBio = () => (
-    <div className="col-12 col-lg-5 col-xl-3 offset-lg-6 offset-xl-7 my-lg-5 px-lg-2 portfolio-home-bio">
+    <div className="col-12 col-lg-5 col-xl-4 offset-lg-6 offset-xl-7 my-lg-5 px-lg-2 portfolio-home-bio">
         <div className="col-12 mobile-name">
             <h1 className="d-block d-lg-none text-center">
                 Aww yeah!
