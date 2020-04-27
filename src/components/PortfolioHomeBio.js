@@ -12,9 +12,9 @@ const PortfolioHomeBio = () => (
                 Aww yeah!
             </h1>
         </div>
-        <div className="col-12">
+        <div className="col-12 portfolio-home-bio__description">
             <p>
-                Michael is a Sydney Software Engineer with an unhealthy programming obsession.
+                Michael is a Sydney Software Engineer with an unhealthy programmpoing obsession.
             </p>
             <p>
                 Schedule overrun is a prominent issue in the software project world. This has driven a strong passion in reading software project risk management books such as <i>“Rapid Development”</i> &amp; <i>“The Pragmatic Programmer”</i>.
