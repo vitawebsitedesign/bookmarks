@@ -37,7 +37,7 @@ Hence, "Modern BNG" is a C# mod that enables these never-seen-before aesthetics.
         "Collaboration with like-minded programmers"
     ],
     "urlsByType": {
-        "source code": [
+        "full source code": [
             "https://github.com/vitawebsitedesign/modern-bng"
         ],
         "demonstration": [

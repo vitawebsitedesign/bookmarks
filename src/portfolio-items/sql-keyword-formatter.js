@@ -35,7 +35,7 @@ The significant productivity boost enabled by this app proves valuable.
         "How to develop with the UWP framework & passing Microsoft Store audits to enable publishment to the store"
     ],
     "urlsByType": {
-        "source code": [
+        "full source code": [
             "https://github.com/vitawebsitedesign/sql-keyword-formatter"
         ],
         "product": [

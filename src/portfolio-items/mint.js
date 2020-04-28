@@ -42,7 +42,7 @@ This suite was implemented with Lua (for datamining), ES6 for calculations, & Re
         "Replicating computer interaction through user32.dll"
     ],
     "urlsByType": {
-        "source code": [
+        "full source code": [
             "https://github.com/vitawebsitedesign/mint",
             "https://github.com/vitawebsitedesign/mint-web-suite",
             "https://github.com/vitawebsitedesign/mint-button-masher"

@@ -23,7 +23,7 @@ This project is a ReactJS implementation of the Machi Koro tabletop product. Too
         "Translating workflow mechanics into rules using ES6 features"
     ],
     "urlsByType": {
-        "source code": [
+        "full source code": [
             "https://github.com/vitawebsitedesign/machi-koroooooooo"
         ]
     }

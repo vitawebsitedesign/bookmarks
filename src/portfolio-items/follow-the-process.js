@@ -27,7 +27,7 @@ This mobile app was used on a daily basis, during bus & train transport to & fro
         "Reverse-engineering the BigCharts MarketWatch graph endpoint to pull & display candlestick charts"
     ],
     "urlsByType": {
-        "source code": [
+        "full source code": [
             "https://github.com/vitawebsitedesign/follow-the-process"
         ]
     }
