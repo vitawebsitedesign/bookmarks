@@ -24,7 +24,7 @@ This website allows users to productively fetch market capitalizations, & is mad
         "Leveraging Twitter Bootstrap to productively deliver responsive user interfaces"
     ],
     "urlsByType": {
-        "source code": [
+        "full source code": [
             "https://github.com/vitawebsitedesign/market-cap"
         ]
     }

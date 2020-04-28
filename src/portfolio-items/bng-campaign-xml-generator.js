@@ -37,7 +37,7 @@ For maximal access, this tool is hosted on CodePen, which was made possible thro
         "The Selenium WebDriver interface for effective automated UI testing"
     ],
     "urlsByType": {
-        "source code": [
+        "full source code": [
             "https://github.com/vitawebsitedesign/bng-campaign-xml-generator"
         ],
         "product": [

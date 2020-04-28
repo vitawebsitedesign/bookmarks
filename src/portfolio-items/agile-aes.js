@@ -25,7 +25,7 @@ Hence, AgileAES is a library that productively abstracts AES through a series of
 		"The .NET SecureString security limitations. Specifically, how contents are protected in memory across different platforms"
     ],
 	"urlsByType": {
-		"source code": [
+		"full source code": [
 			"https://github.com/vitawebsitedesign/AgileAES",
 			"https://github.com/vitawebsitedesign/SecureStringCharacters"
 		],
