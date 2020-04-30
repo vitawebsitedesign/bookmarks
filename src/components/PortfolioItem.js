@@ -18,7 +18,7 @@ const getPreviewImgs = imgs => imgs.map((img, idx) =>
 
 const getPreviewVids = vids => vids.map((v, idx) =>
     <div key={idx} className="col-12 col-lg-6">
-        <HtmlVideo mp4={v.mp4} />
+        <HtmlVideo mp4s={[v.mp4]} />
     </div>
 );
 
