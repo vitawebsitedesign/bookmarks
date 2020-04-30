@@ -13,6 +13,8 @@ $animation-duration: .25s;
     background-size: cover;
     background-position: center;
     height: 100%;
+    transform: scale(1.02);
+    transition: transform $animation-duration ease-out;
     width: 100%;
 }
 .portfolio-items__tile__mask {
@@ -38,20 +40,26 @@ $animation-duration: .25s;
     opacity: 0;
     transition: height $animation-duration ease-out, opacity $animation-duration;
 }
-
-.portfolio-items__tile:hover .portfolio-items__tile__label {
-    transform: translateY(0);
-}
-.portfolio-items__tile:hover .portfolio-items__tile__caption {
-    opacity: 1;
-}
-.portfolio-items__tile:hover .portfolio-items__tile__mask {
-    opacity: 1;
-}
 .portfolio-items__tile__cursor {
     animation: click 2s infinite;
     transform-origin: 20% 20%;
 }
+
+.portfolio-items__tile:hover {
+    .portfolio-items__tile__thumbnail {
+        transform: scale(1);
+    }
+    .portfolio-items__tile__label {
+        transform: translateY(0);
+    }
+    .portfolio-items__tile__caption {
+        opacity: 1;
+    }
+    .portfolio-items__tile__mask {
+        opacity: 1;
+    }
+}
+
 
 @keyframes click {
     0%, 49% {
