@@ -2,6 +2,7 @@ import {createStore} from 'redux';
 import {addPortfolioItems} from '../actions/portfolio-items';
 import AgileAES from '../portfolio-items/agile-aes';
 import AsxMarketCapitalisation from '../portfolio-items/asx-market-capitalisation';
+import BlenderApiUsageForGeometryAndMaterials from '../portfolio-items/blender-api-usage-for-geometry-and-materials';
 import BngCampaignXmlGenerator from '../portfolio-items/bng-campaign-xml-generator';
 import BulkUrlShortener from '../portfolio-items/bulk-url-shortener';
 import FollowTheProcess from '../portfolio-items/follow-the-process';
@@ -15,6 +16,7 @@ import portfolioItems from '../reducers/portfolio-items';
 
 const store = createStore(portfolioItems);
 store.dispatch(addPortfolioItems([
+    BlenderApiUsageForGeometryAndMaterials,
     ModernBng,
     Sudoku,
     BngCampaignXmlGenerator,
